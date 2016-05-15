@@ -1,0 +1,18 @@
+#!/bin/bash
+# Create temporary folder for build files, if it doesn't exist
+DIRECTORY=build
+if [[ ! -d "${DIRECTORY}" && ! -L "${DIRECTORY}" ]] ; then
+	mkdir $DIRECTORY
+fi
+	
+# Compile to class files
+javac -cp libs/*:./src/ -d $DIRECTORY src/SuperCleanLibGDX/*.java
+cd ./$DIRECTORY
+
+# Build jar, no compression(for faster compiling)
+jar c0fm SuperCleanLibGDX.jar ../manifest.mf SuperCleanLibGDX/*.class
+cd ..
+mv ./$DIRECTORY/SuperCleanLibGDX.jar .
+
+# Now you've got a single runnable jar file in your root that has all the 
+# dependancies bundled in together

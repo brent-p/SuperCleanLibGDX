@@ -1,8 +1,8 @@
 # Super Clean LibGDX Project Template 
-This is an empty Libgdx Project Template that demonstrates how to compile and run a simple desktop only LibGDX project without using Gradle.
+This is an empty Libgdx project template that demonstrates how to compile and run a simple desktop only LibGDX project without using Gradle.
 
 ## Why
-I was only ever creating desktop only LibGDX projects and continually waste time everytime something went wrong with Gradle. As my projects are usally simple having a full on build system is totally overkill and having a clean directory structure only adds to the joy of programming.
+I was only ever creating desktop LibGDX projects and continually waste time everytime something went wrong with Gradle. As my projects are usally simple having a full on build system is overkill and having a clean directory structure only adds to the joy of programming.
 
 ## How To Use:
 ### Compiling 

@@ -2,7 +2,7 @@
 This is an empty Libgdx project template that demonstrates how to compile and run a simple desktop only LibGDX project without using Gradle.
 
 ## Why
-I was only ever creating desktop LibGDX projects and continually waste time everytime something went wrong with Gradle. As my projects are usally simple having a full on build system is overkill and having a clean directory structure only adds to the joy of programming.
+I was only ever creating desktop LibGDX projects and continually waste time everytime something went wrong with Gradle. As my projects are usally simple using a full on build system is overkill and having a clean directory structure only adds to the joy of programming.
 
 ## How To Use:
 ### Compiling 
@@ -25,6 +25,9 @@ Contains the generated *.class files that are created during compilation
 Contains the LibGDX .jar files
 ### src
 Contains your source code, I have just provided a simple demo that uses some libgdx classes to demonstrate that the project is compiling properly
+
+#### Further Notes
+This template uses LibGDX version 1.5.5 but you can download the latest Jars from here: https://libgdx.badlogicgames.com/releases/
 
 #### Contact:
 If you get any use out of this you can let me know at hello at brentparish dot com

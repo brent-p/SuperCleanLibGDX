@@ -1,3 +1,12 @@
 Manifest-Version: 1.0
-Class-Path: libs/gdx-backend-headless.jar libs/gdx-backend-jglfw-natives.jar libs/gdx-backend-jglfw.jar libs/gdx-backend-lwjgl.jar libs/gdx-backend-lwjgl-natives.jar libs/gdx-natives.jar libs/gdx.jar libs/gdx-controllers-desktop-natives.jar libs/gdx-controllers-desktop.jar libs/gdx-controllers.jar
+Class-Path: libs/gdx-backend-headless.jar
+  libs/gdx-backend-jglfw-natives.jar
+  libs/gdx-backend-jglfw.jar
+  libs/gdx-backend-lwjgl.jar
+  libs/gdx-backend-lwjgl-natives.jar
+  libs/gdx-natives.jar
+  libs/gdx.jar
+  libs/gdx-controllers-desktop-natives.jar
+  libs/gdx-controllers-desktop.jar
+  libs/gdx-controllers.jar
 Main-Class: SuperCleanLibGDX.SuperCleanLibGDX

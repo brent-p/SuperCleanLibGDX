@@ -2,7 +2,7 @@
 This is an empty Libgdx project template that demonstrates how to compile and run a simple desktop only LibGDX project without using Gradle.
 
 ## Why
-I was only ever creating desktop LibGDX projects and continually waste time everytime something went wrong with Gradle. As my projects are usally simple using a full on build system is overkill and having a clean directory structure only adds to the joy of programming.
+I was starting to get frustrated at the time spent googling everytime something went wrong Gradle and didn't want to learn yet another DSL(Domain Specific Language). As my projects are only targeted towards the desktop, using a full on build system seemed a bit overkill. Personally I think having a clean directory structure and easily debuggable error messages only adds to the joy of programming.
 
 ## How To Use:
 ### Compiling 
